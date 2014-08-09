@@ -1,6 +1,8 @@
-celsius    = 100
-fahrenheit = (celsius * 9 / 5) + 32
+print "Hello. Please enter a temperature value in Celsius: "
 
-print "The result is: "
+celsius    = gets.chomp
+fahrenheit = (celsius.to_i * 9 / 5) + 32
+
+print "Converted to Fahrenheit is: "
 print fahrenheit
 puts "."
